@@ -17,5 +17,9 @@ namespace WinForm
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label1.Text = "歡迎使用 Windows 應用程式";
+        }
     }
 }
